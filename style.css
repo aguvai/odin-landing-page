@@ -18,7 +18,7 @@ ul {
 
 header {
     background-color: #1F2937;
-    padding: 10px 100px;
+    padding: 10px 20%;
 }
 
 .header-logo {
@@ -83,7 +83,7 @@ header {
 /* INFO CONTAINER */
 
 .info-container {
-    padding: 42px 0px;
+    padding: 42px 20%;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -99,6 +99,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 45px;
+    flex-wrap: wrap;
 }
 
 .gallery-item {
@@ -127,7 +128,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #E6E7EB;
-    padding: 100px;
+    padding: 100px 20%;
 }
 
 .testimonial-quote {
@@ -139,4 +140,42 @@ header {
 .testimonial-author {
     font-weight: 700;
     text-align: right;
+}
+
+
+/* CALL TO ACTION CONTAINER*/
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin: 100px 20%;
+}
+
+.call-to-action-container {
+    padding: 36px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.call-to-action-container .title {
+    color:#F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.call-to-action-container .reg-text {
+    color:#E6E7EB;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 8px 32px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
 }
