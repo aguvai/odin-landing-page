@@ -13,10 +13,6 @@ ul {
     margin: 0px;
 }
 
-button a {
-    color:#eff1ed;
-}
-
 /* HEADER */
 
 header {
@@ -80,6 +76,10 @@ header {
     font-weight: 700;
     border-radius: 10px;
     border: 0px;
+}
+
+.opening-content button a {
+    color:#F9FAF8;
 }
 
 
@@ -185,6 +185,10 @@ header {
     font-weight: 600;
     font-size: 15px;
     border-radius: 10px;
+}
+
+.call-to-action button a {
+    color:#F9FAF8;
 }
 
 
