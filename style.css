@@ -85,6 +85,7 @@ header {
 .info-container {
     padding: 42px 0px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .info-title {
@@ -117,4 +118,25 @@ header {
 .gallery-desc {
     font-size: 15px;
     color: darkgray;
+}
+
+
+/* TESTIMONIAL CONTAINER */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E7EB;
+    padding: 100px;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.testimonial-author {
+    font-weight: 700;
+    text-align: right;
 }
