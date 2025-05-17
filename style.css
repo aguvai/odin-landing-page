@@ -13,13 +13,9 @@ ul {
     margin: 0px;
 }
 
-/* GENERAL CONTAINER */
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+button a {
+    color:#F9FAF8;
 }
-
 
 /* HEADER */
 
@@ -184,7 +180,6 @@ header {
 
 .call-to-action button {
     background-color: #3882F6;
-    color:#F9FAF8;
     border: 2px solid #F9FAF8;
     padding: 8px 32px;
     font-weight: 600;
