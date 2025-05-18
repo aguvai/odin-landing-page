@@ -26,13 +26,13 @@ header {
     color: #F9FAF8;
 }
 
-.navbar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar ul {
+nav ul {
     display: flex;
     gap: 16px;
 }
@@ -62,7 +62,7 @@ header {
 }
 
 .hero-secondary-text,
-.navbar a {
+nav a {
     font-size: 18px;
     color: #e5e7eb;
 }
